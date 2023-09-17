@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { fetchTaskData } from "./api/taskApi";
 import { fetchPageData } from "./api/pageApi";
-import { PageData, PostData } from "../components/types";
+import { PageData, PostData } from "../components/interFace";
 import { handleChange } from "../components/formUtils";
 import {
   HTags,

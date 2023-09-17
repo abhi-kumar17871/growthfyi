@@ -1,4 +1,4 @@
-import { PostData } from "./types";
+import { PostData } from "./interFace";
 
 export const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
