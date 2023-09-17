@@ -1,5 +1,5 @@
 import axios from "axios";
-import { PageData } from "../components/types";
+import { PageData } from "../../components/interFace";
 
 export const fetchPageData = async (formData: PageData) => {
     try {

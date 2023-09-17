@@ -1,5 +1,5 @@
 import axios from "axios";
-import { PostData } from "../components/types";
+import { PostData } from "../../components/interFace";
 
 export const fetchTaskData = async (formData: PostData) => {
     try {
